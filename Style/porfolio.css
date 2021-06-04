@@ -1,0 +1,64 @@
+body {
+  background-color: rgba(20, 63, 41, 0.459);
+  background-image: url("../Lib/tech-tip-background.jpg");
+  background-size: 400px;
+  box-shadow: inset 0px 0px 200px 0px rgba(30, 21, 61, 0.89);
+  background-attachment: fixed;
+}
+
+.portada {
+  background-image: url("../Lib/desk.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+}
+
+.bg-dark-translucid {
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+.shadown-around {
+  box-shadow: 0px 0px 20px 0px black;
+}
+
+.shadown-small {
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.bg-projects {
+  background-color: rgba(49, 32, 63, 0.76);
+}
+
+.project-background {
+  background-image: url("../Lib/tech-tip-background.jpg");
+  opacity: 0.15;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.z-index5 {
+  z-index: 5;
+}
+
+.z-index15 {
+  z-index: 15;
+}
+
+.info-panel-size {
+  height: 90%;
+  width: 80%;
+}
+
+.info-body-size {
+  width: 80%;
+}
+
+.nav-text-color {
+  color: white;
+}
+
+.nav-text-color :hover {
+  color: black;
+}/*# sourceMappingURL=porfolio.css.map */
