@@ -61,4 +61,9 @@ body {
 
 .nav-text-color :hover {
   color: black;
+}
+
+.form-size {
+  height: 200px;
+  max-height: 350px;
 }/*# sourceMappingURL=porfolio.css.map */
