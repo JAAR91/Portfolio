@@ -1,13 +1,13 @@
 body {
   background-color: rgba(20, 63, 41, 0.459);
-  background-image: url("./Lib/tech-tip-background.jpg");
+  background-image: url("tech-tip-background.jpg");
   background-size: 400px;
   box-shadow: inset 0px 0px 200px 0px rgba(30, 21, 61, 0.89);
   background-attachment: fixed;
 }
 
 .portada {
-  background-image: url("./Lib/desk.jpg");
+  background-image: url("desk.jpg");
   background-position: center;
   background-size: cover;
   height: 650px;
@@ -30,7 +30,7 @@ body {
 }
 
 .project-background {
-  background-image: url("./Lib/tech-tip-background.jpg");
+  background-image: url("tech-tip-background.jpg");
   opacity: 0.15;
   position: absolute;
   top: 0px;
