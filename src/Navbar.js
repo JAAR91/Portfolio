@@ -1,6 +1,7 @@
 import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
+import menuImg from './img/menu.png';
 
 const Navbar = () => {
   const menuBar = document.createElement('nav');
@@ -10,25 +11,28 @@ const Navbar = () => {
     <div class="container d-flex flex-row justify-content-between">
       <button class="navbar-brand bg-transparent border-0 fs-3 nav-link" type="click">J.A.A.R.</button>
       <div>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="linkContainer">
-            <li class="nav-item">
-              <button class="nav-link bg-transparent border-0 active">Home</button>
+        <div class="">
+          <button class="bg-transparent border-0"><img id="navMenuBtn" class="menuBtn d-md-none" src="${menuImg}"></button>
+          <ul class="d-none mobileLinks d-md-flex flex-row me-auto mb-2 mb-lg-0 text-secondary" id="linkContainer">
+            <li>
+              <button class="bg-transparent border-0 active">Home</button>
             </li>
-            <li class="nav-item">
-              <button class="nav-link bg-transparent border-0">Projects</button>
+            <li>
+              <button class="bg-transparent border-0">Projects</button>
             </li>
-            <li class="nav-item">
-              <button class="nav-link bg-transparent border-0">About</button>
+            <li>
+              <button class="bg-transparent border-0">About</button>
             </li>
-            <li class="nav-item">
-              <button class="nav-link bg-transparent border-0">Contact</button>
+            <li>
+              <button class="bg-transparent border-0">Contact</button>
             </li>
           </ul>
         </div>
       </div>
     </div>
   `;
+
+  let mobileMenuStatus = false;
 
   const MenuClick = (link) => {
     document.getElementById('linkContainer').childNodes.forEach((item) => {
@@ -43,26 +47,40 @@ const Navbar = () => {
     });
   };
 
+  const closeMobileMenu = () => {
+    if (mobileMenuStatus) {
+      document.getElementById('linkContainer').classList.add('d-none');
+      mobileMenuStatus = false;
+    }
+  };
+
   menuBar.addEventListener('click', (e) => {
     switch(e.target.textContent) {
       case 'J.A.A.R.':
-        console.log('JAAR');
         break;
       case 'Home':
         MenuClick('Home');
         Home();
+        closeMobileMenu();
         break;
       case 'Projects':
         MenuClick('Projects');
         Projects();
+        closeMobileMenu();
         break;
       case 'About':
         MenuClick('About');
         About();
+        closeMobileMenu();
         break;
       case 'Contact':
         MenuClick('Contact');
+        closeMobileMenu();
         break;
+    }
+    if (e.target.id === 'navMenuBtn') {
+      document.getElementById('linkContainer').classList.toggle('d-none');
+      mobileMenuStatus = !mobileMenuStatus;
     }
   });
 

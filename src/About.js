@@ -9,7 +9,7 @@ const About = () => {
   
   AboutContainer.innerHTML = `
     <div class="d-flex flex-column m-0 p-4 bg-transparentblack w-100">
-      <p class="fs-1 text-white text-center">About</p>
+      <h1 class="fs-1 text-white text-center">About</h1>
       <p class="fs-4 text-white text-center">
         Hello, my name is Jose. I am a full-stack web developer that uses Javascript, React, Redux, and Ruby on Rails. After taking the mission of learning Unreal Script all by myself. 
         I couldn't stop thinking that I love to code. So I decided to become a website developer. I love to build ideas into web applications. Then I decided to take things to the next level.

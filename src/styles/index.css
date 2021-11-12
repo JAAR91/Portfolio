@@ -33,3 +33,44 @@ nav {
   background-color: rgba(0, 0, 0, 0.432);
   border-radius: 30px;
 }
+
+.menuBtn {
+  width: 25px;
+}
+
+#linkContainer {
+  list-style: none;
+}
+
+button {
+  color: #81f6fa;
+}
+
+.active {
+  color: white;
+  font-weight: 900;
+}
+
+.projectImg {
+  aspect-ratio: 1;
+}
+
+.mobileLinks {
+  background-color: #00000000;
+  position: block;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .mobileLinks {
+    position: absolute;
+    background-color: #000000be;
+    right: 0;
+    top: 60px;
+  }
+
+  .mobileLinks button {
+    margin: 20px 0 20px 0;
+  }
+}
