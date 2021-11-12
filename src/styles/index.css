@@ -1,0 +1,35 @@
+@font-face {
+  font-family: myfont;
+  src: url('./Montserrat-Light.ttf');
+}
+
+* {
+  font-family: 'myfont', 'Courier New', Courier, monospace;
+}
+
+body {
+  background: linear-gradient(90deg, #000000 0%, #e386ff2f 50%, #000000 100%), url('../img/desk.jpg') center no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background: linear-gradient(#000000 0%, #000000 70%, #02020200 100%);
+}
+
+.shadowbackground {
+  background-color: #000000a6;
+  border-radius: 30px;
+  margin: 0;
+}
+
+.AboutImg {
+  max-width: 500px;
+  width: 100%;
+  margin: 10px auto 10px auto;
+  border-radius: 30px;
+}
+
+.bg-transparentblack {
+  background-color: rgba(0, 0, 0, 0.432);
+  border-radius: 30px;
+}
