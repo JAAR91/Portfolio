@@ -1,4 +1,5 @@
 import { DisplayPage } from "./DomLoader";
+import FormSubmit from "./Form";
 
 const Contact = () => {
   DisplayPage.innerHTML = '';
@@ -10,6 +11,7 @@ const Contact = () => {
         Under construction!
     </p>
   `;
+  ContactContainer.append(FormSubmit());
 
   DisplayPage.appendChild(ContactContainer);
 };
