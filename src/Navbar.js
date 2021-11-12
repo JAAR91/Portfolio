@@ -2,6 +2,7 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import menuImg from './img/menu.png';
+import Contact from "./Contac";
 
 const Navbar = () => {
   const menuBar = document.createElement('nav');
@@ -75,6 +76,7 @@ const Navbar = () => {
         break;
       case 'Contact':
         MenuClick('Contact');
+        Contact();
         closeMobileMenu();
         break;
     }
