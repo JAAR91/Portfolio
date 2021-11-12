@@ -10,6 +10,7 @@
 body {
   background: linear-gradient(90deg, #000000 0%, #e386ff2f 50%, #000000 100%), url('../img/desk.jpg') center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 nav {

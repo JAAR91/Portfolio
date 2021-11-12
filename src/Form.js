@@ -14,19 +14,19 @@ const FormSubmit = () => {
   displayForm.appendChild(title);
 
   const nameInp = document.createElement('input');
-  nameInp.classList.add('form-control', 'my-2');
+  nameInp.classList.add('form-control', 'my-3');
   nameInp.type = 'text';
   nameInp.placeholder = 'First name and last name';
   displayForm.appendChild(nameInp);
 
   const emailImp = document.createElement('input');
-  emailImp.classList.add('form-control', 'my-2');
+  emailImp.classList.add('form-control', 'my-3');
   emailImp.type = 'email';
   emailImp.placeholder = 'Email';
   displayForm.appendChild(emailImp);
 
   const messageImp = document.createElement('textarea');
-  messageImp.classList.add('form-control', 'my-2');
+  messageImp.classList.add('form-control', 'my-3');
   messageImp.rows = '6';
   messageImp.placeholder = 'Message';
   displayForm.appendChild(messageImp);
@@ -135,6 +135,8 @@ const FormSubmit = () => {
     emailImp.value = '';
     messageImp.value = '';
   });
+
+  formContainer.classList.add('col-12', 'col-md-6', 'p-3');
 
   return formContainer;
 };
