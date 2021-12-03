@@ -5,20 +5,17 @@ import About from './components/About';
 import Contact from './components/Contac';
 import Projects from './components/Projects';
 
-function App() {
-  return (
-    <>
-      <main>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
-    </>
-  );
-}
-
+const App = () => (
+  <>
+    <main>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </main>
+  </>
+);
 export default App;
