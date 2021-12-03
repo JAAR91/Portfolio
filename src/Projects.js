@@ -19,15 +19,14 @@ const Projects = () => {
         <div class="bg-transparentblack rounded-3 shadow-lg text-white px-1 py-3">
           <div class="row m-0">
             <img class="col-12 col-md-6 rounded-3 projectImg" src="${twitterclone}">
-            <div class="col-12 col-md-6 d-flex flex-column">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-between">
               <p class="fs-3 m-0">Twitter Clone</p>
               <div class="d-flex">
                 <span class="badge bg-danger">RUBY</span>
                 <span class="badge bg-danger mx-1">RUBY ON RAILS</span>
               </div>
               <span>Clone website of Twitter. With log-in and out system, follow users, post text and images, and comment posts. The project was made with ruby on rails.</span>
-              <a class="link link-info my-1" href="https://github.com/JAAR91/twitter" target="_blank">See repository</a>
-              <button class="btn btn-outline-info">More info</button>
+              <a class="btn btn-outline-info" href="https://github.com/JAAR91/twitter" target="_blank">More Info</a>
             </div>
           </div>
         </div>
@@ -37,7 +36,7 @@ const Projects = () => {
         <div class="bg-transparentblack rounded-3 shadow-lg text-white px-1 py-3">
           <div class="row m-0">
             <img class="col-12 col-md-6 rounded-3 order-md-2 projectImg" src="${covidImg}">
-            <div class="col-12 col-md-6 d-flex flex-column order-md-1">
+            <div class="col-12 col-md-6 d-flex flex-column order-md-1 justify-content-between">
               <p class="fs-3 m-0">Covid Tracker</p>
               <div class="d-flex">
                 <span class="badge bg-warning ">React</span>
@@ -46,8 +45,7 @@ const Projects = () => {
               <span>
                 App that allows you to keep track of the covid-19 pandemic by country and by date. You can check information by contry and some countries contain information for city. 
               </span>
-              <a class="link link-info my-1" href="https://github.com/JAAR91/covid-tracker" target="_blank">See repository</a>
-              <button class="btn btn-outline-info">More info</button>
+              <a class="btn btn-outline-info" href="https://github.com/JAAR91/covid-tracker" target="_blank">More Info</a>
             </div>
           </div>
         </div>
@@ -57,7 +55,7 @@ const Projects = () => {
         <div class="bg-transparentblack rounded-3 shadow-lg text-white px-1 py-3">
           <div class="row m-0">
             <img class="col-12 col-md-6 rounded-3 order-lg-2 projectImg" src="${rocketImg}">
-            <div class="col-12 col-md-6 d-flex flex-column order-md-1">
+            <div class="col-12 col-md-6 d-flex flex-column order-md-1 justify-content-between">
               <p class="fs-3 m-0">Space Travelers Hub</p>
               <div class="d-flex">
                 <span class="badge bg-warning ">JavaScript</span>
@@ -66,8 +64,7 @@ const Projects = () => {
               <span>
                 Keep track of rockets and missions from SpaceX company. 
               </span>
-              <a class="link link-info my-1" href="https://github.com/AdedayoOpeyemi/space_travelers_hub" target="_blank">See repository</a>
-              <button class="btn btn-outline-info">More info</button>
+              <a class="btn btn-outline-info" href="https://github.com/AdedayoOpeyemi/space_travelers_hub" target="_blank">More Info</a>
             </div>
           </div>
         </div>
@@ -77,7 +74,7 @@ const Projects = () => {
         <div class="bg-transparentblack rounded-3 shadow-lg text-white px-1 py-3">
           <div class="row m-0">
             <img class="col-12 col-md-6 rounded-3 order-md-2 order-lg-1 projectImg" src="${webflixImg}">
-            <div class="col-12 col-md-6 d-flex flex-column order-md-1 order-lg-2">
+            <div class="col-12 col-md-6 d-flex flex-column order-md-1 order-lg-2 justify-content-between">
               <p class="fs-3 m-0">WEBFLIX</p>
               <div class="d-flex">
                 <span class="badge bg-danger">RUBY</span>
@@ -86,8 +83,7 @@ const Projects = () => {
               <span>
                 Keep track of the TV shows you watch, see comments and give likes to your favorites shows.
               </span>
-              <a class="link link-info my-1" href="https://github.com/DanSam5K/Webflix-Index" target="_blank">See repository</a>
-              <button class="btn btn-outline-info">More info</button>
+              <a class="btn btn-outline-info" href="https://github.com/DanSam5K/Webflix-Index" target="_blank">More Info</a>
             </div>
           </div>
         </div>
@@ -97,7 +93,7 @@ const Projects = () => {
         <div class="bg-transparentblack rounded-3 shadow-lg text-white px-1 py-3">
           <div class="row m-0">
             <img class="col-12 col-md-6 rounded-3 projectImg" src="${tictactoe}">
-            <div class="col-12 col-md-6 d-flex flex-column">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-between">
               <p class="fs-3 m-0">TIC TAC TOE</p>
               <div class="d-flex">
                 <span class="badge bg-danger">RUBY</span>
@@ -105,8 +101,7 @@ const Projects = () => {
               <span>
                 A Tic Tac Toe game made with ruby.
               </span>
-              <a class="link link-info my-1" href="https://github.com/JAAR91/tictactoewithRSpec" target="_blank">See repository</a>
-              <button class="btn btn-outline-info">More info</button>
+              <a class="btn btn-outline-info" href="https://github.com/JAAR91/tictactoewithRSpec" target="_blank">More Info</a>
             </div>
           </div>
         </div>
@@ -116,7 +111,7 @@ const Projects = () => {
         <div class="bg-transparentblack rounded-3 shadow-lg text-white px-1 py-3">
           <div class="row m-0">
             <img class="col-12 col-md-6 rounded-3 order-md-2 projectImg" src="${webscraper}">
-            <div class="col-12 col-md-6 d-flex flex-column order-md-1">
+            <div class="col-12 col-md-6 d-flex flex-column order-md-1 justify-content-between">
               <p class="fs-3 m-0">Movies WEB Scraper</p>
               <div class="d-flex">
                 <span class="badge bg-danger ">Ruby</span>
@@ -124,8 +119,7 @@ const Projects = () => {
               <span>
               Web scrapper made with ruby. It get all the movies store on Wikipedia.
               </span>
-              <a class="link link-info my-1" href="https://github.com/JAAR91/Web_Scraper_Ruby" target="_blank">See repository</a>
-              <button class="btn btn-outline-info">More info</button>
+              <a class="btn btn-outline-info" href="https://github.com/JAAR91/Web_Scraper_Ruby" target="_blank">More Info</a>
             </div>
           </div>
         </div>
