@@ -4,8 +4,16 @@ import rocketImg from '../img/rocketsimg.png';
 import webflixImg from '../img/webflix.png';
 import tictactoe from '../img/tic-tac-toe.gif';
 import webscraper from '../img/webscraper.png';
+import carBooking from '../img/carbooking.png';
 
 const MockProjects = [
+  {
+    name: 'Car Booking',
+    technologies: ['RUBY ON RAILS', 'REACT', 'REDUX'],
+    description: 'A car website that allows you reserve car for testing before buying it, use its own API made with rails and uses reac and redux for the fron end.',
+    link: 'https://github.com/Emmanuelaaron/carBooking',
+    img: carBooking
+  },
   {
     name: 'Twitter Clone',
     technologies: ['RUBY', 'RUBY ON RAILS'],
