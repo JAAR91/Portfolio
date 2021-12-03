@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.86f7ece7.chunk.css",
-    "main.js": "/static/js/main.86794fe1.chunk.js",
-    "main.js.map": "/static/js/main.86794fe1.chunk.js.map",
+    "main.js": "/static/js/main.118ce2f4.chunk.js",
+    "main.js.map": "/static/js/main.118ce2f4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.eac43bf4.chunk.js": "/static/js/2.eac43bf4.chunk.js",
@@ -11,6 +11,7 @@
     "static/css/main.86f7ece7.chunk.css.map": "/static/css/main.86f7ece7.chunk.css.map",
     "static/js/2.eac43bf4.chunk.js.LICENSE.txt": "/static/js/2.eac43bf4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/desk.45fa8b2f.jpg",
+    "static/media/carbooking.5eeabc2c.png": "/static/media/carbooking.5eeabc2c.png",
     "static/media/codedeveloper.4bbf1cd2.jpg": "/static/media/codedeveloper.4bbf1cd2.jpg",
     "static/media/covidtracker.e11fc0c8.png": "/static/media/covidtracker.e11fc0c8.png",
     "static/media/developerteam.286fb9b6.jpg": "/static/media/developerteam.286fb9b6.jpg",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.d0605945.js",
     "static/js/2.eac43bf4.chunk.js",
     "static/css/main.86f7ece7.chunk.css",
-    "static/js/main.86794fe1.chunk.js"
+    "static/js/main.118ce2f4.chunk.js"
   ]
 }
