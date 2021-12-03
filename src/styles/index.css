@@ -1,0 +1,106 @@
+@font-face {
+  font-family: myfont;
+  src: url('./Montserrat-Light.ttf');
+}
+
+* {
+  font-family: 'myfont', 'Courier New', Courier, monospace;
+}
+
+body {
+  background: linear-gradient(90deg, #000000 0%, #e386ff2f 50%, #000000 100%), url('../img/desk.jpg') center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  background: linear-gradient(#000000 0%, #000000 70%, #02020200 100%);
+}
+
+.bg-dark-transparent {
+  background-color: #000000c2;
+  font-size: 40px;
+}
+
+.loading-spinner {
+  width: 100px;
+  height: 100px;
+  font-size: 100px;
+}
+
+.nav-text {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-text:hover {
+  color: #7bcfff;
+}
+
+.shadowbackground {
+  background-color: #000000a6;
+  border-radius: 30px;
+  margin: 0;
+}
+
+.AboutImg {
+  max-width: 500px;
+  width: 100%;
+  margin: 10px auto 10px auto;
+  border-radius: 30px;
+}
+
+.bg-transparentblack {
+  background-color: rgba(0, 0, 0, 0.432);
+  border-radius: 30px;
+}
+
+.menuBtn {
+  width: 25px;
+}
+
+#linkContainer {
+  list-style: none;
+}
+
+button {
+  color: #81f6fa;
+}
+
+.active,
+.active:visited {
+  color: #fdff70;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.projectImg {
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+}
+
+.mobileLinks {
+  background-color: #00000000;
+  position: block;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .mobileLinks {
+    position: absolute;
+    background-color: #000000be;
+    right: 0;
+    top: 60px;
+  }
+
+  .mobileLinks button {
+    margin: 20px 0 20px 0;
+  }
+}
+
+.outline-red {
+  box-shadow: 0 0 7px 2px red;
+}
