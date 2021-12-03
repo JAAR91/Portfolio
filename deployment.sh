@@ -1,1 +1,1 @@
-git subtree push --prefix dist origin deployment
+git subtree push --prefix build origin deployment
