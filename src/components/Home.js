@@ -8,10 +8,9 @@ const Home = () => (
         <img className="shadow rounded-circle w-100" src={ profilePic } alt="" />
       </div>
       <div className="col-12 col-md-7 order-md-1 pt-7">
-        <div className="text-center">
-          <p className="text-white fs-1 my-0">Jose Alberto Arriaga Ramos</p>
-          <div className="border"></div>
-          <p className="text-white fs-3 my-0">Full Stack Software Developer</p>
+        <div>
+          <p className="text-white fs-5 my-0">Hello there, my name is Jose Alberto Arriaga Ramos</p>
+          <p className="text-white fs-1 my-0">I am a Full Stack Software Developer</p>
         </div>
         <div className="text-center">
           <span className="badge bg-info">HTML5</span>

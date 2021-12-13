@@ -6,16 +6,14 @@ import Contact from './components/Contac';
 import Projects from './components/Projects';
 
 const App = () => (
-  <>
-    <main>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </main>
-  </>
+  <div class="d-flex flex-column d-md-flex d-md-row" id="page-container">
+    <NavBar />
+    {/* <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes> */}
+  </div>
 );
 export default App;
