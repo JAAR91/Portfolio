@@ -8,9 +8,9 @@
 }
 
 body {
-  background: linear-gradient(0deg, #000000 0%, #1c4745 50%, #1c4745 100%);
-  background-size: cover;
+  background: linear-gradient(0deg, #000000e5 0%, #1c4745d7 50%, #1c4745dc 100%), url('../img/backgroundpatter.png');
   background-attachment: fixed;
+  background-size: 10%;
 }
 
 .bg-dark-transparent {
@@ -90,6 +90,12 @@ button {
   background-color: rgb(19, 161, 142);
 }
 
+.black-translucid {
+  background-color: rgba(0, 0, 0, 0.514);
+  box-shadow: 0 0 25px 0 black;
+  border-radius: 10px;
+}
+
 #navbar {
   width: 15%;
   height: 100%;
@@ -102,12 +108,17 @@ button {
   margin: 0;
 }
 
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
 #page-container {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
+  overflow: hidden;
 }
 
 .show-menu {
@@ -133,6 +144,36 @@ button {
   height: 100%;
 }
 
+.home-container {
+  width: 85%;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 60%;
+  padding: 150px;
+  background-image: url('../img/dots.svg');
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  transform: rotate(45deg);
+}
+
+.image-container img{
+  border-radius: 40px;
+  transform: rotate(-45deg);
+  box-shadow: 0 0 25px 0 #000000;
+}
+
+.home-text-container {
+  padding: 20px 20px 20px 0;
+}
+
 @media (max-width: 768px) {
   #navbar {
     width: 100%;
@@ -153,6 +194,7 @@ button {
     background-color: #142b3dc4;
     margin: 0;
     border-bottom-left-radius: 10px;
+    z-index: 900;
   }
 
   .div-menu-container {
@@ -168,14 +210,47 @@ button {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
+    overflow: hidden;
   }
 
   .nav-text {
-    color: #000000;
+    color: #f8f8f8;
     font-size: 20px;
     font-weight: 900;
     text-decoration: none;
+    background-color: #00000000;
+    margin: 0;
+    border: 0;
+  }
+
+  .nav-text:hover {
+    color: #009df8;
+    background-color: #00000000;
+  }
+
+  .active, .active:visited {
+    color: #00a2ff;
+    background-color: #00000000;
+    text-shadow: 0 0 25px white;
+  }
+
+  .home-container {
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .image-container {
+    width: 100%;
+    padding: 60px;
+    border-radius: 20px;
+  }
+
+  .home-text-container {
+    padding: 20px;
   }
 }
