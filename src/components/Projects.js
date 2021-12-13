@@ -5,9 +5,9 @@ const Projects = () => {
   const myProjects = MockProjects;
 
   return (
-    <div className="container p-3">
+    <div className="project-container">
       <div className="row m-0">
-        <h1 className="fs-1 text-white text-center bg-dark rounded shadow p-3">Some of my Projects</h1>
+        <h1 className="fs-1 fw-bold text-white text-center p-3">Check out some of my projects</h1>
         {myProjects.map((project) => (
           <div key={project.id} className="col-12 col-lg-6 p-2">
             <div className="bg-transparentblack rounded-3 shadow-lg text-white px-1 py-3">

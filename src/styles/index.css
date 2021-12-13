@@ -13,9 +13,20 @@ body {
   background-size: 10%;
 }
 
-.bg-dark-transparent {
-  background-color: #00bd8e;
-  font-size: 40px;
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(252, 252, 252, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a9484;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #009ee2;
 }
 
 .loading-spinner {
@@ -33,7 +44,6 @@ body {
 .AboutImg {
   max-width: 500px;
   width: 100%;
-  margin: 10px auto 10px auto;
   border-radius: 30px;
 }
 
@@ -174,6 +184,29 @@ button {
   padding: 20px 20px 20px 0;
 }
 
+.project-container {
+  width: 85%;
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.about-container {
+  width: 85%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 40px;
+}
+
+.contact-container {
+  width: 85%;
+  overflow-y: auto;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   #navbar {
     width: 100%;
@@ -241,7 +274,7 @@ button {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
   }
 
   .image-container {
@@ -251,6 +284,24 @@ button {
   }
 
   .home-text-container {
+    padding: 20px;
+  }
+
+  .project-container {
+    width: 100%;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .about-container {
+    width: 100%;
+    overflow-y: auto;
+    padding: 20px;
+  }
+
+  .contact-container {
+    width: 100%;
+    overflow-y: auto;
     padding: 20px;
   }
 }

@@ -35,11 +35,18 @@ const Home = () => {
           <div className="text-white text-center mt-5">
             <p className="fs-4">
               I love to code and I'm currently looking for new challenges that help me grow up as a developer.
-              <NavLink className="bg-transparent text-white m-0 p-3" to="/" >read more...</NavLink>
+              <NavLink className="bg-transparent text-white m-0 p-3" to="/about" >read more...</NavLink>
             </p>
           </div>
           <div className="d-flex justify-content-center">
-            <a className="btn btn-outline-light" href="https://docs.google.com/document/d/1AINJ2zR6U2j3eEWaSuTKL-SMAYRwPZsLuh1VXfxH3as/edit" rel="noreferrer" target="_blank" >Get my resume</a>
+            <a
+              className="btn btn-outline-light"
+              href="https://docs.google.com/document/d/1AINJ2zR6U2j3eEWaSuTKL-SMAYRwPZsLuh1VXfxH3as/edit"
+              rel="noreferrer"
+              target="_blank" 
+            >
+              Get my resume
+            </a>
           </div>
           <div className=" col-12 order-3 text-white text-center mt-3">
             <q className="fs-2">Programming isn't about what you know. It's about what you can figure out-</q>

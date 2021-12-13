@@ -6,9 +6,9 @@ import angelist from '../img/angelist.png';
 import ContactForm from './contactForm';
 
 const Contact = () => (
-  <div className="container p-3 position-relative">
-    <div className="row m-0 p-0">
-      <h1 className="col-12 fs-1 text-white text-center bg-dark rounded shadow p-3">
+  <div className="contact-container position-relative">
+    <div className="row m-0 p-0 black-translucid">
+      <h1 className="col-12 fs-1 text-white text-center p-3">
         Contact
       </h1>
       <div className="col-12 col-md-6 row">
@@ -49,8 +49,8 @@ const Contact = () => (
             <img className="m-0" src={angelist} alt="" />
           </a>        
         </div>          
-        <div className="col-12 d-flex flex-row justify-content-center align-items-center">
-          <p className="text-white text-center fs-3 m-0 p-0">Email: </p>
+        <div className="col-12 d-flex flex-column d-md-flex flex-md-row justify-content-center align-items-center p-3">
+          <p className="text-white text-center fs-3 m-0 p-0">Email:</p>
           <a
             className="link-info m-0 fs-3"
             href="mailto:jaarriagaramos@gmail.com"
