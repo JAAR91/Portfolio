@@ -31,7 +31,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="px-5 col-12 col-md-6 p-3">
+    <div className="px-5 col-12 col-lg-6 p-3">
       <div className="d-flex flex-column">
         <p className="fs-2 text-white mb-4">Send me a message:</p>
         <input
