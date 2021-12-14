@@ -175,19 +175,28 @@ button {
 }
 
 .image-container {
-  width: 60%;
-  padding: 150px;
+  width: 100%;
+}
+
+.image-container div {
+  width: 100%;
+  border-radius: 40px;
+  transform: rotate(45deg);
+  padding: 30px;
   background-image: url('../img/dots.svg');
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
-  transform: rotate(45deg);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
-.image-container img{
+.image-container div img {
+  width: 60%;
+  box-shadow: 0 0 25px 0 #000000;
   border-radius: 40px;
   transform: rotate(-45deg);
-  box-shadow: 0 0 25px 0 #000000;
 }
 
 .home-text-container {
@@ -215,6 +224,50 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1024px) {
+  #navbar {
+    width: 30%;
+  }
+
+  .home-container {
+    width: 70%;
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .image-container {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-container div {
+    background-image: url('../img/dots.svg');
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .image-container div img {
+    transform: rotate(-45deg);
+    width: 60%;
+    border-radius: 40px;
+    box-shadow: 0 0 25px 0 #000000;
+  }
+
+  .home-text-container {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -282,6 +335,7 @@ button {
   .home-container {
     width: 100%;
     overflow-y: auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -289,8 +343,28 @@ button {
 
   .image-container {
     width: 100%;
-    padding: 60px;
-    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+  }
+
+  .image-container div {
+    background-image: url('../img/dots.svg');
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .image-container div img {
+    transform: rotate(-45deg);
+    width: 60%;
+    border-radius: 40px;
+    box-shadow: 0 0 25px 0 #000000;
   }
 
   .home-text-container {

@@ -17,7 +17,9 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="image-container">
-        <img className="w-100" src={ profilePic } alt="" />
+        <div>
+          <img src={ profilePic } alt="" />
+        </div>
       </div>
       <div className="home-text-container">
         <div className="black-translucid p-3"> 
