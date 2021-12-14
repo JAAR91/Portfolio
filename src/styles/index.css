@@ -65,6 +65,18 @@ button {
   color: rgb(137, 227, 255);
 }
 
+.bg-message {
+  background-color: #00332be8;
+}
+
+.border-red {
+  box-shadow: 0 0 6px 2px #ff0000;
+}
+.d-text {
+  position: absolute;
+  bottom: 0;
+}
+
 .active,
 .active:visited {
   color: #ffffff;
