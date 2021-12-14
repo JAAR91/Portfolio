@@ -64,10 +64,20 @@ button {
   color: #81f6fa;
 }
 
+#navbar-title, #navbar-title:visited {
+  background-color: #00000000;
+  text-decoration: none;
+  font-size: 50px;
+  color: rgb(137, 227, 255);
+}
+
 .active,
 .active:visited {
-  color: #a1e9ff;
-  background-color: #1c4745;
+  color: #ffffff;
+  background: linear-gradient(90deg, #1c4745dc 0%, #1c4745dc 50%, #1c4745dc 100%), url('../img/backgroundpatter.png');
+  background-repeat: repeat;
+  background-position: 51px 218px;
+  background-size: 80%;
   border: 0;
 }
 
@@ -92,7 +102,7 @@ button {
   padding: 25px;
   margin: 10px 0 10px 30px;
   text-decoration: none;
-  border-radius: 10px 0 0 10px ;
+  border-radius: 10px 0 0 10px;
 }
 
 .nav-text:hover {

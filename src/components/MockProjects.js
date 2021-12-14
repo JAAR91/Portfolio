@@ -8,6 +8,7 @@ import carBooking from '../img/carbooking.png';
 
 const MockProjects = [
   {
+    id: 1,
     name: 'Car Booking',
     technologies: ['RUBY ON RAILS', 'REACT', 'REDUX'],
     description: 'A car website that allows you reserve car for testing before buying it, use its own API made with rails and uses reac and redux for the fron end.',
@@ -15,6 +16,7 @@ const MockProjects = [
     img: carBooking
   },
   {
+    id: 2,
     name: 'Twitter Clone',
     technologies: ['RUBY', 'RUBY ON RAILS'],
     description: 'Clone website of Twitter. With log-in and out system, follow users, post text and images, and comment posts. The project was made with ruby on rails.',
@@ -22,6 +24,7 @@ const MockProjects = [
     img: twitterclone
   },
   {
+    id: 3,
     name: 'Covid Tracker',
     technologies: ['REACT', 'REDUX'],
     description: 'App that allows you to keep track of the covid-19 pandemic by country and by date. You can check information by contry and some countries contain information for city. ',
@@ -29,6 +32,7 @@ const MockProjects = [
     img: covidImg
   },
   {
+    id: 4,
     name: 'Space Travelers Hub',
     technologies: ['REACT', 'REDUX'],
     description: 'Keep track of rockets and missions from SpaceX company. ',
@@ -36,6 +40,7 @@ const MockProjects = [
     img: rocketImg
   },
   {
+    id: 5,
     name: 'WEBFLIX',
     technologies: ['JAVASCRIPT', 'WEBPACK'],
     description: 'Keep track of rockets and missions from SpaceX company. ',
@@ -43,6 +48,7 @@ const MockProjects = [
     img: webflixImg
   },
   {
+    id: 6,
     name: 'TIC TAC TOE',
     technologies: ['RUBY'],
     description: 'A Tic Tac Toe game made with ruby.',
@@ -50,6 +56,7 @@ const MockProjects = [
     img: tictactoe
   },
   {
+    id: 7,
     name: 'Movies WEB Scraper',
     technologies: ['RUBY'],
     description: 'Web scrapper made with ruby. It get all the movies store on Wikipedia.',

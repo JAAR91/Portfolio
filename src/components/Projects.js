@@ -16,9 +16,12 @@ const Projects = () => {
                 <div className="col-12 col-md-6 d-flex flex-column justify-content-between">
                   <p className="fs-3 m-0">{project.name}</p>
                   <div className="d-flex">
-                    {project.technologies.map((technologie) => (
-                      <span className="badge bg-info m-1">{technologie}</span>
-                    ))}
+                    {project.technologies.map((technologie, index) => {
+                      const knum = index + 1;
+                      return (
+                        <span key={knum} className="badge bg-info m-1">{technologie}</span>
+                      );
+                    })}
                   </div>
                   <span>{project.description}</span>
                   <a className="btn btn-outline-info" href={project.link} target="_blank" rel="noreferrer">More info</a>

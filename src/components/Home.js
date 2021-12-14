@@ -27,9 +27,12 @@ const Home = () => {
           </div>
           <div className="text-center">
             {
-              skill.map((item) => (
-                <span className="badge bg-info m-1">{item}</span>
-              ))
+              skill.map((item, index) => {
+                const knum = index + 1;
+                return (
+                  <span key={knum} className="badge bg-info m-1">{item}</span>
+                );
+              })
             }
           </div>
           <div className="text-white text-center mt-5">

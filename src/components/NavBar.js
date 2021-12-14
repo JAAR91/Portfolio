@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import menuImg from '../img/menu.png';
 
 const NavBar = () => {
@@ -30,8 +30,8 @@ const NavBar = () => {
 
   return (
     <div id="navbar" className="d-flex flex-row justify-content-between d-md-flex flex-md-column justify-content-md-start align-items-center">
-        <NavLink className="navbar-brand bg-transparent border-0 fs-3 text-white m-0 p-3" to="/" >J.A.A.R.</NavLink>
-        <div class="div-menu-container">
+        <Link id="navbar-title" to="/" >J.A.A.R.</Link>
+        <div className="div-menu-container">
           <button className="d-md-none bg-transparent border-0 p-2 float-end" onClick={() => setMenuStatus(!menuStatus)}>
             <img id="navMenuBtn" className="menuBtn" src={menuImg} alt="" />
           </button>
