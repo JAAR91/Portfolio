@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 a {
@@ -13,4 +15,58 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.page-section2 {
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  overflow: hidden;
+}
+
+@keyframes insideligth {
+  0%{
+    box-sizing: inset 0 4px 2px 0 #dc49f0;
+  }
+  25% {
+    box-shadow: inset -4px 0 2px 0 #dc49f0;
+  }
+  50% {
+    box-shadow: inset 0 -4px 2px 0 #dc49f0;
+  }
+  75% {
+    box-shadow: inset 4px 0 2px 0 #dc49f0;
+  }
+  100% {
+    box-shadow: inset 0 4px 2px 0 #dc49f0;
+  }
+}
+
+.page-section2-container {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  border-radius: 30px;
+  position: relative;
+  animation: insideligth 5s linear infinite alternate;
+}
+
+@media (min-width: 576px) {
+  .page-container {
+    flex-direction: row;
+  }
+
+  .page-section2 {
+    padding: 30px;
+  }
 }
